@@ -1,0 +1,143 @@
+@media (max-width:600px) {
+    .dor{ 
+    background-color:transparent;
+    height: 100px;
+    width: 100%;
+    transition: all 0.5s ease-in-out ;
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.cont{
+    
+    height: 100vh;
+/* background-image: url(BiodegradableBronzeBullmastiff-mobile.mp4); */
+    width: 100%;
+    /* background-color: #302766; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+.cont h1{
+font-size: 20px;
+font-family: sans-serif;
+color: white;
+z-index: 1;display: flex;
+align-items: center;
+justify-content: center;
+position: fixed;
+top: 40%;
+
+transition: all 1s ease-in-out;
+/* transition-duration: 2s; */
+transition-delay: 0.5s;
+
+}
+
+.cont2{
+    background-color: rgb(92, 92, 192);
+    width: 100%;
+    height: 100vh;
+}
+.cont3{
+    
+    width: 100%;
+    height: 100vh;
+position: relative;
+background-color: #302766;
+z-index: 99;
+}
+
+.cont3 h1{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.cont4{
+    background-color: #302766;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.logo{
+/* background-color: aqua;height: 100%; */
+width: 40%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-family: sans-serif;
+}
+
+.logo>h1{
+    font-family: sans-serif;
+font-size: 50px;
+}
+.logo>h1:hover{
+
+    color:#a2a1a5;
+    cursor: pointer;
+    scale: 1.1;
+    transition: all 0.5s ease-in-out;
+   
+}
+.logo>h1>span{
+color: white;
+
+cursor: pointer;
+scale: 1.5;
+transition: all 0.5s ease-in-out;
+
+}
+.navb{
+    width: 100%;
+    height: 100%;
+    /* background-color: #302766; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.navb>li{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navb>li:hover{
+
+    background: white;
+    transition: all 0.5s ease-in-out;
+    color: #302766;
+    cursor: pointer;
+}
+.logo {
+    display: flex;
+    
+    justify-content:space-around;
+
+}
+.navb>li::before{
+content: " ";
+    width: 0%;
+    height: 100%;
+    background-color: #302766;
+    position: absolute;
+}
+
+
+
+
+}
